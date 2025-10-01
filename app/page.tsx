@@ -3,6 +3,7 @@ import {Button} from "@/components/ui/button";
 import CompanionCard from "@/components/CompanionCard";
 import CompanionsList from "@/components/CompanionsList";
 import CTA from "@/components/CTA";
+import {recentSessions} from "@/constants";
 
 
 const Page = () => {
@@ -28,9 +29,9 @@ const Page = () => {
           />
           <CompanionCard
               id ="789"
-              name = "Verna the Vocabulary Builder"
-              topic = "Language Building"
-              subject="English"
+              name = "Verba the Vocabulary Builder"
+              topic = "English Literature"
+              subject="Language"
               duration={30}
               color="#ffa1cb"
           />
@@ -40,7 +41,12 @@ const Page = () => {
       </section>
 
        <section className="home-section">
-           <CompanionsList />
+           <CompanionsList
+               title ="Recently completed sessions"
+               companions={recentSessions}
+               classNames="w-2/3 max-lg:w-full"
+
+           />
            <CTA />
        </section>
 

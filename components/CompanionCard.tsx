@@ -40,9 +40,6 @@ CompanionCardProps) => {
 
             </Link>
 
-
-
-
         </article>
     );
 };
