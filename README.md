@@ -1,4 +1,4 @@
-# LearnEaze --> LMS SaaS App
+# LearnEaze - A LMS SaaS App
 
 A modern Learning Management System (LMS) SaaS app built with **Next.js**, **Supabase**, **Stripe**, and **Vapi**. This platform enables real-time interactive learning with AI voice agents, secure user authentication, subscription-based access, and a polished UI.
 
