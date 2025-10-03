@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
@@ -22,6 +22,8 @@ import {
 import { Input } from "@/components/ui/input"
 import {subjects} from "@/constants";
 import {Textarea} from "@/components/ui/textarea";
+import {createCompanion} from "@/lib/actions/companions.actions";
+import {redirect} from "next/navigation";
 
 const formSchema = z.object({
   name: z.string().min(1,{message:'Companion is required.'}),
@@ -29,7 +31,7 @@ const formSchema = z.object({
   topic: z.string().min(1,{message:'Topic is required.'}),
   voice: z.string().min(1,{message:'Voice is required.'}),
   style: z.string().min(1,{message:'Style is required.'}),
-  duration: z.string().min(1,{message:'Duration is required.'}),
+  duration: z.coerce.number().min(1,{message:'Duration is required.'}),
 })
 
 const CompanionForm = () => {
@@ -48,10 +50,15 @@ const CompanionForm = () => {
   })
 
   // 2. Define a submit handler.
-  const onSubmit=(values: z.infer<typeof formSchema>)=> {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
-    console.log(values)
+  const onSubmit=async(values: z.infer<typeof formSchema>)=> {
+      const companion = await createCompanion(values);
+
+      if(companion) {
+          redirect(`/companions/${companion.id}`);
+      } else {
+          console.log('Failed to create a companion');
+          redirect('/');
+      }
   }
   return (
       <Form {...form}>

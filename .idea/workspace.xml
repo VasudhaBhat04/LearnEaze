@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f642bb10-9ecc-4955-83d0-853287733664" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/subscription/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/actions/companions.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/supabase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/LE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Logole.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/subsciption/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/companions/new/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/companions/new/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/CompanionForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CompanionForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,34 +35,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/USER/OneDrive/Documents/GitHub/learneaze/public/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\USER\\OneDrive\\Documents\\GitHub\\learneaze\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/OneDrive/Documents/GitHub/learneaze/public/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\USER\\OneDrive\\Documents\\GitHub\\learneaze\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\OneDrive\Documents\GitHub\learneaze\public\images" />
       <recent name="C:\Users\USER\OneDrive\Documents\GitHub\learneaze\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\OneDrive\Documents\GitHub\learneaze\public\images" />
       <recent name="C:\Users\USER\OneDrive\Documents\GitHub\learneaze\app\sign-in\[[...sign-in]]" />
       <recent name="C:\Users\USER\OneDrive\Documents\GitHub\learneaze\components" />
       <recent name="C:\Users\USER\OneDrive\Documents\GitHub\learneaze" />
@@ -92,7 +100,8 @@
       <updated>1759248936985</updated>
       <workItem from="1759248937949" duration="6005000" />
       <workItem from="1759288819244" duration="19803000" />
-      <workItem from="1759409669057" duration="2259000" />
+      <workItem from="1759409669057" duration="4866000" />
+      <workItem from="1759470744626" duration="3571000" />
     </task>
     <servers />
   </component>
