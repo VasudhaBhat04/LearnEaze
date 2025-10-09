@@ -7,7 +7,8 @@ import Image from "next/image";
 interface CompanionSessionPageProps {
   params: Promise<{ id: string}>;
 }
-
+//params /url/{id} -> id
+// searchParams /url
 const CompanionSession = async ({ params }: CompanionSessionPageProps) => {
   const { id } = await params;
   const companion = await getCompanion(id);
