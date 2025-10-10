@@ -74,4 +74,5 @@ Then open your browser at: [http://localhost:3000](http://localhost:3000)
 
 ---
 
+<img width="500" height="500" alt="app logo" src="https://github.com/user-attachments/assets/e3faddad-3d2f-4b1c-8d4a-14a4396a1472" />
 
