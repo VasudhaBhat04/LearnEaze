@@ -136,3 +136,5 @@ export const newCompanionPermissions = async () => {
         return true;
     }
 }
+
+
