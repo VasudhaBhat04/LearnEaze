@@ -29,6 +29,7 @@ A modern Learning Management System (LMS) SaaS app built with **Next.js**, **Sup
 * **shadcn/ui + Tailwind CSS** – UI components and styling.
 * **Zod** – Schema validation.
 
+<img width="500" height="500" alt="learneaze" src="https://github.com/user-attachments/assets/d4e812bf-6a6c-4e6d-b32b-85cbe20122bf" />
 
 ---
 
@@ -74,5 +75,5 @@ Then open your browser at: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-<img width="500" height="500" alt="app logo" src="https://github.com/user-attachments/assets/e3faddad-3d2f-4b1c-8d4a-14a4396a1472" />
+
 
