@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LearnEaze - A LMS SaaS App
 
-## Getting Started
+A modern Learning Management System (LMS) SaaS app built with **Next.js**, **Supabase**, **Stripe**, and **Vapi**. This platform enables real-time interactive learning with AI voice agents, secure user authentication, subscription-based access, and a polished UI.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+* **AI Voice Agents**: Engage with AI-powered tutors via low-latency voice interactions using Vapi.
+* **Authentication**: Secure sign-in & sign-up flows with **Clerk** (Google & more).
+* **Billing & Subscriptions**: Subscription plans, upgrades, and Stripe-powered payment management.
+* **Session History & Bookmarks**: Save tutors, review past sessions, and keep learning organized.
+* **Tutor Creation**: Build your own AI tutor with customizable subject, topic, and teaching style.
+* **Database Integration**: Real-time storage and APIs powered by **Supabase**.
+* **Modern UI/UX**: Responsive interface with **Tailwind CSS** and **shadcn/ui** components.
+* **Search Functionality**: Quickly find tutors with filters and search.
+* **Cross-Device Ready**: Works seamlessly on desktop, tablet, and mobile.
+* **Error Tracking**: Debug faster with **Sentry** monitoring.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Next.js** – React framework for full-stack web apps.
+* **TypeScript** – Strong typing for reliability and scalability.
+* **Clerk** – Authentication, user management, and billing.
+* **Supabase** – Realtime database, auth, and storage.
+* **Stripe** – Subscription management and payments.
+* **Vapi** – Voice AI agents for interactive learning.
+* **shadcn/ui + Tailwind CSS** – UI components and styling.
+* **Zod** – Schema validation.
+* **Sentry** – Error tracking & performance monitoring.
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory and add the following:
+
+```bash
+# Clerk
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL=/
+NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=/
+
+# Supabase
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+
+# Stripe
+STRIPE_SECRET_KEY=
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+STRIPE_WEBHOOK_SECRET=
+
+# Vapi
+NEXT_PUBLIC_VAPI_WEB_TOKEN=
+
+# Sentry
+SENTRY_AUTH_TOKEN=
+```
+
+
+---
+
+## ▶️ Running the Project
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open your browser at: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
