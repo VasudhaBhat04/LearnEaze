@@ -15,7 +15,6 @@ A modern Learning Management System (LMS) SaaS app built with **Next.js**, **Sup
 * **Modern UI/UX**: Responsive interface with **Tailwind CSS** and **shadcn/ui** components.
 * **Search Functionality**: Quickly find tutors with filters and search.
 * **Cross-Device Ready**: Works seamlessly on desktop, tablet, and mobile.
-* **Error Tracking**: Debug faster with **Sentry** monitoring.
 
 ---
 
@@ -29,7 +28,7 @@ A modern Learning Management System (LMS) SaaS app built with **Next.js**, **Sup
 * **Vapi** – Voice AI agents for interactive learning.
 * **shadcn/ui + Tailwind CSS** – UI components and styling.
 * **Zod** – Schema validation.
-* **Sentry** – Error tracking & performance monitoring.
+
 
 ---
 
@@ -57,8 +56,7 @@ STRIPE_WEBHOOK_SECRET=
 # Vapi
 NEXT_PUBLIC_VAPI_WEB_TOKEN=
 
-# Sentry
-SENTRY_AUTH_TOKEN=
+
 ```
 
 
