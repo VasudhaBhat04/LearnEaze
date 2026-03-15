@@ -4,7 +4,7 @@ A modern Learning Management System (LMS) SaaS app built with **Next.js**, **Sup
 
 ---
 
-## 🚀 Features
+##  Features
 
 * **AI Voice Agents**: Engage with AI-powered tutors via low-latency voice interactions using Vapi.
 * **Authentication**: Secure sign-in & sign-up flows with **Clerk** (Google & more).
@@ -18,7 +18,7 @@ A modern Learning Management System (LMS) SaaS app built with **Next.js**, **Sup
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Next.js** – React framework for full-stack web apps.
 * **TypeScript** – Strong typing for reliability and scalability.
@@ -31,7 +31,7 @@ A modern Learning Management System (LMS) SaaS app built with **Next.js**, **Sup
 
 ---
 
-## 🔑 Environment Variables
+##  Environment Variables
 
 Create a `.env` file in the root directory and add the following:
 
@@ -61,7 +61,7 @@ NEXT_PUBLIC_VAPI_WEB_TOKEN=
 
 ---
 
-## ▶️ Running the Project
+##  Running the Project
 
 Start the development server:
 
